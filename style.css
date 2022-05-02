@@ -82,46 +82,74 @@ header ul li img{
     font-size: 20px;
 }
 
-.arrow, i{
+#animation {
     font-size: 20px;
     color: #50fa7b;
+    transition: 500ms;
 }
-.arrow, i:hover{
+
+#animation:hover{
     color: #b17aff71;
 }
 
-#about, p{
+.rotate {
+    transform: rotate(180deg);
+    transition: 500ms;
+}
+
+#mensao {
+    padding: 10px;
+    box-shadow: 0 0 0.9px 0.06px #fff;
+    border-radius: 1%;
+}
+
+#mensao, p{
     max-width: 600px;
     margin: 0 auto;
     color: #fff;
 }
 
-#about, #autor{
+#mensao, #autor{
     text-align: end;
+}
+
+#about {
+    display: flex;
+}
+
+.showRepositys {
+    display: block !important;
+    transition: 200ms;
 }
 
 .form {
     width: 40%;
-    margin: 0 auto;
     color: #50fa7b;
-    margin: 10px auto;
+    margin: 10px auto 0 auto;
 }
 
 .form input{
     width: 50%;
+    background-color: rgb(182, 182, 182);
     color: #000;
+    margin: 0 auto;
 }
 
 .form button{
+    margin-left: -5px;
+    color: #50fa7b;
     width: 15%;
     height: auto;
-    background: #50fa7b;
-    border-style: none;
+    background: none;
+    border: 0.1px solid currentColor;
     border-radius: 2%;
     cursor: pointer;
+    transition: 600ms;
+    font-weight: bold;
 }
 
-.form button b{
-    color: #000;
+.form button:hover {
+    background: #003f91;
+    font-size: 14px;
 }
 
