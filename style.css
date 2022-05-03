@@ -27,7 +27,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
 }
@@ -118,6 +118,14 @@ header ul li img{
     display: flex !important;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
+}
+ .showRepositys div {
+    border: 1px solid #fff;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .form {
