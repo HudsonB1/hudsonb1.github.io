@@ -78,7 +78,6 @@ header ul li img{
 }
 
 .container .name h5 {
-    
     font-size: 20px;
 }
 
@@ -90,7 +89,6 @@ header ul li img{
 
 #animation:hover{
     color: #b17aff71;
-    font-size: 21px;
 }
 
 .rotate {
@@ -115,17 +113,34 @@ header ul li img{
 }
 
 .showRepositys {
-    display: flex !important;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
+    display: block !important;
 }
- .showRepositys div {
-    border: 1px solid #fff;
-    justify-items: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 10px;
+
+.showRepositys h2{
+    width: 100%;
+    color: #fff;
+}
+.showRepositys div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: 0 10px;
+}
+
+.showRepositys div div {
+    display: block;
+    box-shadow: 0 0 0.9px 0.06px #fff;
+}
+.showRepositys div div a{
+    font-weight: bold;
+}
+
+.showRepositys div div p{
+    margin: auto 20px;
+}
+
+.showRepositys div img{
+    height: 50px;
 }
 
 .form {
