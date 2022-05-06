@@ -41,6 +41,7 @@ header ul{
 header ul li{
     padding: 5px;
     margin: 1px;
+    font-size: 13px;
     border: 0.1px solid;
     border-radius: 6%;
     color: #50fa7b;
@@ -49,7 +50,7 @@ header ul li{
 
 header ul li:hover {
     background-color: #001969;
-    font-size: 17.8px;
+    font-size: 14px;
     cursor: pointer;
 }
 
@@ -79,16 +80,7 @@ header ul li img{
 
 .container .name h5 {
     font-size: 20px;
-}
-
-#animation {
-    font-size: 20px;
-    color: #50fa7b;
-    transition: 500ms;
-}
-
-#animation:hover{
-    color: #b17aff71;
+    /* margin-bottom: 20px; */
 }
 
 .rotate {
@@ -96,9 +88,10 @@ header ul li img{
     transition: 500ms;
 }
 
-#mensao {
+#mensao {  
+    margin-top: 10px !important;
     padding: 10px;
-    box-shadow: 0 0 0.9px 0.06px #fff;
+    box-shadow: 0px 0px 8px 0.1px #d8f3df;
     border-radius: 1%;
 }
 
@@ -110,6 +103,16 @@ header ul li img{
 
 #mensao, #autor{
     text-align: end;
+}
+
+#animation {
+    font-size: 20px;
+    color: #50fa7b;
+    transition: 500ms;
+}
+
+#animation:hover{
+    color: #b17aff71;
 }
 
 .showRepositys {
@@ -174,3 +177,26 @@ header ul li img{
     font-size: 14px;
 }
 
+@media only screen and (max-width: 480px) {
+    header ul li{
+        font-size: 10px;
+    }
+    header ul li img{
+        height: 10px;
+    }
+    header ul li:hover{
+        font-size: 10px;
+    }
+
+    .container .name h1 {
+        font-size: 30px;
+    }
+    .container .name h5 {
+        font-size: 20px;
+    }
+
+    #mensao {
+        margin: 10px 20% 0px 20%;
+        font-size: 12px;
+    }
+}
