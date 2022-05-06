@@ -199,4 +199,19 @@ header ul li img{
         margin: 10px 20% 0px 20%;
         font-size: 12px;
     }
+    .showRepositys div{
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .showRepositys div div {
+        margin: 0 5px;
+    }
+
+    .form {
+        width: 100%;
+    }
+   
+    
 }
