@@ -80,7 +80,6 @@ header ul li img{
 
 .container .name h5 {
     font-size: 20px;
-    /* margin-bottom: 20px; */
 }
 
 .rotate {
@@ -132,18 +131,24 @@ header ul li img{
 
 .showRepositys div div {
     display: block;
-    box-shadow: 0 0 0.9px 0.06px #fff;
+    box-shadow: 0px 0px 4px 0.1px #cafcd8;
 }
+
+.showRepositys div div img{
+    height: 50px;
+}
+
+.ttt {
+    height: 40px! important; 
+    margin-top: 5px;
+}
+
 .showRepositys div div a{
     font-weight: bold;
 }
 
 .showRepositys div div p{
     margin: auto 20px;
-}
-
-.showRepositys div img{
-    height: 50px;
 }
 
 .form {
@@ -199,14 +204,49 @@ header ul li img{
         margin: 10px 20% 0px 20%;
         font-size: 12px;
     }
+    .showRepositys {
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .showRepositys h2{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
     .showRepositys div{
         display: flex;
         justify-content: center;
         align-items: stretch;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .showRepositys div div img{
+        height: 30px;
+    }
+
+    .ttt{
+        height: 22px !important;
+        margin-bottom: 3px;
     }
 
     .showRepositys div div {
-        margin: 0 5px;
+        font-size: 8px;
+        display: block;
+        margin: 5px 5px;
+        padding: 1px;
+        padding-bottom: 4px;
+    }
+
+    .showRepositys div div a{
+        font-size: 10px;
+    }
+
+    .showRepositys div div p{
+        margin: auto 15px;
+        font-size: 8px;
     }
 
     .form {
