@@ -183,6 +183,13 @@ header ul li img{
 }
 
 @media only screen and (max-width: 480px) {
+
+    body {
+        height: 100vh;
+        background-image: linear-gradient(0deg, transparent -70%, #000000 120%), url('img/lindo.jpg');
+        background-size: cover;
+    }
+
     header ul li{
         font-size: 10px;
     }
@@ -197,11 +204,12 @@ header ul li img{
         font-size: 30px;
     }
     .container .name h5 {
-        font-size: 20px;
+        font-size: 18px;
+        margin-bottom: 5px;
     }
 
     #mensao {
-        margin: 10px 20% 0px 20%;
+        margin: 10px 20% 10px 20%;
         font-size: 12px;
     }
     .showRepositys {
@@ -212,14 +220,14 @@ header ul li img{
     .showRepositys h2{
         width: 100%;
         margin: 0 auto;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .showRepositys div{
         display: flex;
         justify-content: center;
         align-items: stretch;
-        margin: 0 auto;
+        margin: 5px auto;
         width: 80%;
     }
 
