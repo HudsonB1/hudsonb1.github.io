@@ -182,6 +182,19 @@ header ul li img{
     font-size: 14px;
 }
 
+#list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#list a {
+    color: #fff;
+}
+#list a:hover {
+    color: currentColor;
+}
+
 @media only screen and (max-width: 480px) {
 
     body {
