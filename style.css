@@ -110,12 +110,12 @@ header ul li img{
 
 #animation {
     font-size: 20px;
-    color: #50fa7b;
+    color: #b17aff71;
     transition: 500ms;
 }
 
 #animation:hover{
-    color: #b17aff71;
+    color: #50fa7b;
 }
 
 .showRepositys {
@@ -161,20 +161,27 @@ header ul li img{
     margin: 10px auto 0 auto;
 }
 
+.form div p{
+    font-size: 15px;
+    color: #b17aff71;
+}
+
 .form input{
+    outline: 0;
     width: 50%;
     background-color: rgb(182, 182, 182);
     color: #000;
     margin: 0 auto;
+    border: 1px solid #fff;
 }
 
 .form button{
     margin-left: -5px;
-    color: #50fa7b;
+    color: #fff;
     width: 15%;
     height: auto;
     background: none;
-    border: 0.1px solid currentColor;
+    border: 1px solid #fff;
     border-radius: 2%;
     cursor: pointer;
     transition: 600ms;
@@ -183,7 +190,6 @@ header ul li img{
 
 .form button:hover {
     background: #003f91;
-    font-size: 14px;
 }
 
 #list {
