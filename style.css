@@ -87,21 +87,25 @@ header ul li img{
     transition: 500ms;
 }
 
-#mensao {  
-    margin-top: 10px !important;
+#mensao { 
     padding: 10px;
+    margin: 10px auto 0 auto;
     box-shadow: 0px 0px 8px 0.1px #d8f3df;
     border-radius: 1%;
 }
 
 #mensao, p{
     max-width: 600px;
-    margin: 0 auto;
     color: #fff;
 }
 
 #mensao, #autor{
     text-align: end;
+}
+
+#arrow {
+    width: 15px;
+    margin: 0 auto;
 }
 
 #animation {
@@ -190,6 +194,7 @@ header ul li img{
 
 #list a {
     color: #fff;
+    margin: 0 auto;
 }
 #list a:hover {
     color: currentColor;
